@@ -1,0 +1,16 @@
+{
+  "name": "author-blog",
+  "version": "1.0.0",
+  "description": "This is Assignment 1 of Skill Labs (5th Sem). Creating Author's Blog.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Keerthan S Suvarna",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "uuid": "^9.0.1"
+  }
+}

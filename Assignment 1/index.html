@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/blog" method="POST">
+        <input type="text" id="authname" name="authname" required placeholder="Author's name"><hr>
+        <input type="text" id="pwd" name="pwd" required placeholder="Author's Password"><hr>
+        <input type="text" id="content" name="content" placeholder="Enter the Content"><br><br>
+        <button type="submit">SAVE BLOG</button>
+    </form><br><br><hr><br><br>
+    <form action="/blog/" method="GET">
+        <input type="text" id="id" name="id" required><br><br>
+        <button type="submit">Search Blog</button>
+    </form>
+</body>
+</html>
